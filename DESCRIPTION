@@ -9,7 +9,7 @@ Description: This is a support package for the ggseg, and ggseg3d packages.
     It contains the smith atlases to plot using functions from those two packages.
 License: CC BY 4.0
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.3
 Depends: 
     R (>= 3.5.0),
     ggseg,
