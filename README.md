@@ -1,0 +1,41 @@
+# ggsegSmith
+
+<!-- badges: start -->
+[![r-universe](https://ggsegverse.r-universe.dev/badges/ggsegSmith)](https://ggsegverse.r-universe.dev/ggsegSmith)
+<!-- badges: end -->
+
+Smith Atlas for the ggsegverse Ecosystem.
+
+## Installation
+
+``` r
+# From r-universe
+install.packages("ggsegSmith", repos = "https://ggsegverse.r-universe.dev")
+
+# From GitHub
+# install.packages("remotes")
+remotes::install_github("ggsegverse/ggsegSmith")
+```
+
+## Usage
+
+``` r
+library(ggsegSmith)
+library(ggseg)
+
+plot(smith()) +
+  theme_brain()
+```
+
+## Atlas
+
+### smith
+
+Smith 1907 cytoarchitectonic cortical parcellation.
+
+## Data source
+
+Annotation files from the supplementary materials of Pijnenburg et al. (2021), projected onto fsaverage5.
+
+- **Reference**: Smith (1907); Pijnenburg et al. (2021) [doi:10.1016/j.neuroimage.2021.118274](https://doi.org/10.1016/j.neuroimage.2021.118274)
+- **Date obtained**: 2021-11-05
