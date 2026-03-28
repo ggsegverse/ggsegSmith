@@ -1,10 +1,21 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # ggsegSmith
 
 <!-- badges: start -->
-
 [![R-CMD-check](https://github.com/ggsegverse/ggsegSmith/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ggsegverse/ggsegSmith/actions/workflows/R-CMD-check.yaml)
 [![r-universe](https://ggsegverse.r-universe.dev/badges/ggsegSmith)](https://ggsegverse.r-universe.dev/ggsegSmith)
 <!-- badges: end -->
@@ -13,7 +24,7 @@ Smith Atlas for the ggsegverse Ecosystem.
 
 ## Installation
 
-``` r
+```{r, eval = FALSE}
 # From r-universe
 install.packages("ggsegSmith", repos = "https://ggsegverse.r-universe.dev")
 
@@ -23,22 +34,18 @@ remotes::install_github("ggsegverse/ggsegSmith")
 ```
 
 ## Atlases
-
 ### smith
-
+ 
 Smith 1907 cytoarchitectonic cortical parcellation.
 
-``` r
+```{r smith}
 library(ggsegSmith)
 plot(smith())
 ```
+## Data source
 
-<img src="man/figures/README-smith-1.png" alt="" width="100%" /> \##
-Data source
+Annotation files from Pijnenburg et al. (2021) supplementary materials.
 
-Annotation files from Pijnenburg et al. (2021) supplementary materials.
-
-- **Reference**: Smith (1907); Pijnenburg et al. (2021)
-  [doi:10.1016/j.neuroimage.2021.118274](https://doi.org/10.1016/j.neuroimage.2021.118274)
+- **Reference**: Smith (1907); Pijnenburg et al. (2021) [doi:10.1016/j.neuroimage.2021.118274](https://doi.org/10.1016/j.neuroimage.2021.118274)
 
 - **Date obtained**: 2021-11-05

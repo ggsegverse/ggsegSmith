@@ -16,9 +16,5 @@
 #' @export
 #' @family ggseg_atlases
 #' @examples
-#' \dontrun{
 #' smith()
-#' }
-smith <- function() {
-  stop("Smith atlas data not yet created. Run data-raw pipeline first.")
-}
+smith <- function() .smith
