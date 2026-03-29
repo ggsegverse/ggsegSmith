@@ -17,4 +17,5 @@
 #' @family ggseg_atlases
 #' @examples
 #' smith()
+#' plot(smith())
 smith <- function() .smith
