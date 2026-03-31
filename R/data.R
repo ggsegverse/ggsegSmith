@@ -15,6 +15,7 @@
 #' @import ggseg.formats
 #' @export
 #' @family ggseg_atlases
+#' @family cortical_atlases
 #' @examples
 #' smith()
 #' plot(smith())
